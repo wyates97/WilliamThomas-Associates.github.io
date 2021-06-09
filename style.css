@@ -1,0 +1,1001 @@
+/* RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #000;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+/* END RESET */
+
+/* Standard Styles */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Verdana';
+	margin: 0;
+	color: #181818;
+}
+img {
+	max-width: 100%;
+}
+
+/* Header Styles */
+header {
+	text-align: center;
+}
+.logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo img {
+	width: 40%;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+header nav ul li a {
+	display: block;
+	background-color: #67281f;
+	color: #fff;
+	padding: 15px;
+	border-bottom: 1px solid #fff;
+	transition: background-color 0.2s ease;
+}
+header nav ul li a:hover {
+	background-color: #562019;
+	color: #927350;
+}
+
+/* (HOME PAGE) Main Section Aside */
+.content1 {
+	background-image: url('images/home/cleveland.png');
+	background-color: #272639;
+	background-size: cover;
+	background-position: bottom;
+}
+aside {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+aside h4 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 550;
+	font-size: 28px;
+	line-height: 35px;
+	text-shadow: 2px 2px #181818;
+  padding: 35px 0px 35px 0px;
+}
+aside p {
+	margin: 0px 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+	text-shadow: 2px 2px #181818;
+}
+
+/* Contact Form styles */
+form {
+	padding: 35px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+form h1 {
+	color: #67281f;
+	font-size: 20px;
+	line-height: 30px;
+  padding-bottom: 7.5px;
+}
+form h2 {
+	color: #181818;
+	font-size: 18.5px;
+	line-height: 32px;
+}
+form p {
+	color: #181818;
+	font-size: 16.5px;
+	line-height: 22px;
+}
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: #927350;
+  color: #fff;
+  border: none;
+}
+
+/* About Firm Styles */
+.about {
+	background-color: #fff;
+}
+.about img {
+	padding: 25px 20px 0px 20px;
+}
+.about h3 {
+	padding: 25px 0px 15px 0px;
+	margin: 0px 15px 0px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #67281f;
+	font-size: 17px;
+	font-weight: 550;
+	line-height: 25px;
+	text-shadow: .1px .1px #181818;
+	border-bottom: 1px solid #181818;
+}
+.about h4 {
+	margin: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #927350;
+	font-size: 22px;
+	font-weight: 550;
+	line-height: 32px;
+}
+.about p {
+	margin: 0px 20px 0px 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/* Services List (Home Page) */
+.servicesList {
+	background-color: #927350;
+}
+.servicesList h3 {
+	padding: 25px 0px 15px 0px;
+	margin: 0px 15px 0px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #181818;
+	font-size: 17px;
+	font-weight: 550;
+	line-height: 20px;
+	text-shadow: .1px .1px #181818;
+	border-bottom: 1px solid #181818;
+}
+.servicesList ul {
+	padding: 18px 0px 18px 0px;
+}
+.servicesList ul li {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 500;
+}
+.servicesList ul li a {
+	text-align: center;
+	display: block;
+	color: #1d1d1d;
+	padding: 15px;
+}
+.servicesList ul li a:hover {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-shadow: .5px .5px #181818;
+}
+.servicesList ul li span {
+	color: #181818;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-shadow: .5px .5px #181818;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #fff;
+}
+footer h3 {
+  padding-bottom: 4px;
+	margin: 0px 15px 0px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #67281f;
+	font-size: 17px;
+	font-weight: 550;
+	text-shadow: .1px .1px #181818;
+}
+.socials {
+  padding: 20px 0px 25px 0px;
+  text-align: center;
+}
+.socials ul {
+  list-style-type: none;
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.socials img {
+  width: 30%;
+  padding: 10px 0px 0px 0px;
+}
+.officeLocation ul {
+	padding-bottom: 15px;
+}
+.officeLocation ul li {
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: #181818;
+	padding: 5px;
+}
+.officeLocation ul li span {
+  padding-right: 25px;
+}
+.footerLogo {
+  text-align: center;
+}
+.footerLogo img {
+  width: 35%;
+  padding: 5px 0px 20px 0px;
+}
+.copyrights {
+	background-color: #f1f1f1;
+}
+.copyrights p {
+	padding: 10px;
+	color: #1d1d1d;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+/* (SERVICES PAGE) Main Section */
+.servicesHead {
+  background-image: url('images/services/services.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.servicesHead h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 550;
+  text-shadow: 2px 2px #181818;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+.servicesP {
+  text-align: center;
+	color: #181818;
+	font-weight: 600;
+	font-size: 10.5px;
+	line-height: 16px;
+  padding: 10px 15px 10px 15px;
+  background-color: #f1f1f1;
+}
+.serviceL, .serviceI {
+  padding-bottom: 10px;
+  border-bottom: 9px solid #f1f1f1;
+  text-align: center;
+}
+.serviceL h2, .serviceI h2 {
+  text-align: center;
+  color: #181818;
+	font-size: 19px;
+  line-height: 25px;
+  padding: 30px;
+  padding: 30px 30px 15px 30px;
+}
+.serviceL img, .serviceI img {
+  width: 93.5%;
+  padding-bottom: 10px;
+}
+.serviceL p, .serviceI p {
+  text-align: left;
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 20px 30px;
+}
+.serviceL ul li, .serviceI ul li {
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 6px 30px;
+  list-style-position: inside;
+}
+
+/* (STAFF PAGE) Main Section */
+.staffHead {
+  background-image: url('images/staff/staff.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.staffHead h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 550;
+  text-shadow: 2px 2px #181818;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+.staffMembers ul {
+  list-style: none;
+  background-color: #927350;
+}
+.staffMembers ul li {
+  border-bottom: 9px solid #fff;
+}
+.staffMembers ul li h2 {
+  text-align: center;
+  color: #181818;
+	font-size: 19px;
+  line-height: 25px;
+  padding: 30px;
+  padding: 30px 30px 15px 30px;
+}
+.staffMembers ul li h3 b {
+  color: #67281f;
+}
+.staffMembers ul li h3 {
+  text-align: center;
+  color: #18181;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0px 30px 15px 30px;
+}
+.staffMembers ul li p {
+  text-align: left;
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 20px 30px;
+}
+
+/* (ABOUT PAGE) Main Section */
+.aboutHead {
+  background-image: url('images/about/office.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.aboutHistory {
+  background-color: #f1f1f1;
+}
+.aboutHead h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 550;
+  text-shadow: 2px 2px #181818;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+.aboutHistory h2, .aboutMission h2, .aboutValues h2, .aboutPromise h2, .aboutJobs h2 {
+  text-align: center;
+  color: #181818;
+	font-size: 19px;
+  line-height: 25px;
+  padding: 30px;
+  padding: 30px 30px 15px 30px;
+}
+.aboutHistory p, .aboutMission p, .aboutValues p, .aboutPromise p, .aboutJobs p {
+  text-align: left;
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 20px 30px;
+}
+.aboutMission {
+  text-align: center;
+}
+.aboutMission img {
+  width: 93.5%;
+  padding-bottom: 10px;
+}
+.aboutValues ul li {
+  color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 6px 30px;
+  list-style-position: inside;
+}
+.aboutPromise ol li {
+  color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 6px 30px;
+  list-style-position: inside;
+}
+.aboutPromise ol li span {
+  font-weight: 600;
+  color: #562019;
+}
+.aboutJobs ul li {
+  color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 6px 30px;
+  list-style-position: inside;
+}
+.aboutJobs ul {
+  margin-left: 12.5px;
+}
+.aboutMission, .aboutValues, .aboutPromise, .aboutJobs {
+  padding-bottom: 10px;
+  border-bottom: 9px solid #f1f1f1;
+}
+
+/* (INSIGHTS PAGE) Main Section */
+.insightsHead {
+  background-image: url('images/insights/insights.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+.insightsHead h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 550;
+  text-shadow: 2px 2px #181818;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+.testimonials ul {
+  list-style: none;
+}
+.testimonials ul li {
+  border-bottom: 9px solid #927350;
+}
+.testimonials ul li h2 {
+  text-align: center;
+  color: #181818;
+	font-size: 19px;
+  line-height: 25px;
+  padding: 30px;
+  padding: 30px 30px 15px 30px;
+}
+.testimonials ul li p {
+  text-align: left;
+	color: #181818;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+  padding: 0px 30px 20px 30px;
+}
+.testimonials ul li h3 {
+  text-align: center;
+  color: #67281f;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0px 30px 15px 30px;
+}
+
+/* Media Queries Tablets */
+@media screen and (min-width: 500px) {
+  header nav ul li a {
+    font-size: 20px;
+    padding: 18px;
+  }
+  nav ul { /* Header Section */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  aside h4 { /* Welcoming Section */
+    font-size: 33px;
+    line-height: 45px;
+    padding: 55px 0px 45px 0px;
+  }
+  aside p {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 0px 35px 30px 35px;
+  }
+  form { /* Form Section */
+    padding-bottom: 50px;
+  }
+  form h1 {
+    font-size: 25px;
+  }
+  form h2 {
+    font-size: 23.5px;
+  }
+  form p {
+    font-size: 21.5px;
+    line-height: 27.5px;
+  }
+  input[type=text], input[type=submit] {
+    font-size: 18px;
+  }
+  label {
+    font-size: 18px;
+  }
+  .about h3 { /* About Section */
+    padding-top: 40px;
+    font-size: 24px;
+    margin: 0px 45px 0px 45px;
+  }
+  .about h4 {
+    padding: 25px 0px 20px 0px;
+    font-size: 29px;
+  }
+  .about img {
+  	padding: 25px 35px 0px 35px;
+  }
+  .about p {
+    margin: 0px 35px 0px 35px;
+    font-size: 20px;
+  	line-height: 35px;
+  }
+  .about {
+    padding-bottom: 15px;
+  }
+  .servicesList h3 { /* Services Section */
+    padding-top: 40px;
+    font-size: 24px;
+    margin: 0px 45px 0px 45px;
+  }
+  .servicesList ul {
+  	padding: 40px 35px 40px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 1px;
+  }
+  .servicesList ul li {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .servicesList ul li span {
+    font-size: 22px;
+  }
+  .servicesList ul li a {
+    text-align: left;
+  }
+  .footer { /* Footer Section */
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    align-items: center;
+  }
+  footer h3 {
+    font-size: 21px;
+    padding-bottom: 8px;
+  }
+  .officeLocation ul li {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .footerLogo img {
+    width: 70%;
+  }
+  .copyrights p {
+  	padding: 9px;
+  	font-size: 14px;
+  }
+  .servicesHead h1 { /* Services Main Section */
+    font-size: 34px;
+    font-weight: 600;
+    padding: 40px 0px 40px 0px;
+  }
+  .servicesP {
+    text-align: center;
+  	color: #181818;
+  	font-weight: 600;
+  	font-size: 13.5px;
+  	line-height: 20px;
+    padding: 10px 27px 10px 27px;
+    background-color: #f1f1f1;
+  }
+  .serviceL h2, .serviceI h2 {
+  	font-size: 22px;
+    line-height: 28px;
+    padding: 30px 30px 15px 30px;
+  }
+  .serviceL img, .serviceI img {
+    width: 90%;
+    padding-bottom: 15px;
+  }
+  .serviceL p, .serviceI p {
+    text-align: center;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .serviceL ul li, .serviceI ul li {
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 30px 6px 30px;
+    list-style-position: inside;
+  }
+  .staffHead h1 { /* Staff Main Section */
+    font-size: 34px;
+    font-weight: 600;
+    padding: 40px 0px 40px 0px;
+  }
+  .staffMembers ul {
+    list-style: none;
+    background-color: #927350;
+  }
+  .staffMembers ul li {
+    border-bottom: 9px solid #fff;
+  }
+  .staffMembers ul li h2 {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 30px 30px 15px 30px;
+  }
+  .staffMembers ul li h3 {
+    font-size: 17px;
+  }
+  .staffMembers ul li p {
+    text-align: left;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .aboutHead h1 { /* About Main Section */
+    font-size: 34px;
+    font-weight: 600;
+    padding: 40px 0px 40px 0px;
+  }
+  .aboutHistory h2, .aboutMission h2, .aboutValues h2, .aboutPromise h2, .aboutJobs h2 {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 30px 30px 15px 30px;
+  }
+  .aboutHistory p, .aboutMission p, .aboutValues p, .aboutPromise p, .aboutJobs p {
+    text-align: left;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .aboutMission img {
+    width: 90%;
+    padding-bottom: 15px;
+  }
+  .aboutValues ul li {
+    font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 30px 6px 30px;
+    list-style-position: inside;
+  }
+  .aboutPromise ol li {
+    font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 30px 6px 30px;
+    list-style-position: inside;
+  }
+  .aboutJobs ul li {
+    font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 30px 6px 30px;
+    list-style-position: inside;
+  }
+  .aboutMission, .aboutValues, .aboutPromise, .aboutJobs {
+    padding-bottom: 10px;
+    border-bottom: 9px solid #f1f1f1;
+  }
+  .insightsHead h1 { /* Insights Main Section */
+    font-size: 34px;
+    font-weight: 600;
+    padding: 40px 0px 40px 0px;
+  }
+  .testimonials ul li {
+    border-bottom: 9px solid #927350;
+  }
+  .testimonials ul li h2 {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 30px 30px 15px 30px;
+  }
+  .testimonials ul li p {
+    text-align: left;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .testimonials ul li h3 {
+    font-size: 17px;
+  }
+}
+/* Media Queries Larger Devices */
+@media screen and (min-width: 980px) {
+  header { /* Header Section */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+  .logo img {
+    width: 50%;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav ul li {
+    padding-right: 40px;
+  }
+  header nav ul li a {
+    background-color: #fff;
+    color: #181818;
+    display: block;
+    padding: 5px;
+  }
+  header nav ul li a:hover {
+    color: #181818;
+    background-color: #fff;
+    border-bottom: 5px solid #67281f;
+  }
+  .content1 { /* Welcoming Section (aside) */
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+  	justify-content: center;
+  }
+  aside p {
+    line-height: 46px;
+  }
+  .about { /* About Section */
+    padding: 0px 40px 25px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .about h3 {
+    border-bottom: 1px solid #181818;
+  }
+  .servicesList {
+    padding: 0px 40px 25px 40px;
+  }
+  .servicesList h3 {
+    margin: 0px 83px 0px 83px;
+    border-bottom: 1px solid #181818;
+  }
+  .servicesList ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+  }
+  .footer { /* Footer Section */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    align-items: center;
+  }
+  footer h3 {
+    font-size: 22px;
+    padding-bottom: 12px;
+  }
+  .socials ul {
+    width: 80%;
+  }
+  .footerLogo img {
+    width: 45%;
+  }
+  .copyrights p {
+  	padding: 6px;
+  	font-size: 12px;
+  }
+  .services { /* Services Main Section */
+    display: grid;
+    grid-template-columns: 1fr .8fr;
+    border-bottom: 9px solid #67281f;
+  }
+  .servicesHead h1 {
+    font-size: 34px;
+    font-weight: 600;
+    padding: 60px 0px 60px 0px;
+  }
+  .serviceL h2, .serviceI h2 {
+  	font-size: 24px;
+    line-height: 24px;
+  }
+  .servicesP {
+    text-align: center;
+  	font-size: 14.5px;
+  	line-height: 22px;
+    background-color: #67281f;
+    color: #fff;
+    text-shadow: 1px 1px #927350;
+    padding: 15px 55px 15px 55px;
+  }
+  .serviceL ul {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    text-align: left;
+  }
+  .serviceL p, .serviceI p {
+    text-align: left;
+  }
+  .serviceI img {
+    width: 85%;
+    padding-bottom: 15px;
+  }
+  .serviceL, .serviceI {
+    border-bottom: 9px solid #fff;
+  }
+  .staffMembers ul li div { /* Staff Main Section */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+  }
+  .staffHead h1 {
+    font-size: 34px;
+    font-weight: 600;
+    padding: 60px 0px 60px 0px;
+  }
+  .staffMembers ul {
+    background-color: #fff;
+  }
+  .staffMembers ul li {
+    border-bottom: 9px solid #927350;
+  }
+  .staffMembers ul li h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .staffMembers ul li h3 {
+    font-size: 19px;
+  }
+  .staffMembers ul li p {
+    text-align: left;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .aboutHead h1 { /* About Main Section */
+    font-size: 34px;
+    font-weight: 600;
+    padding: 60px 0px 60px 0px;
+  }
+  .aboutHistory h2, .aboutMission h2, .aboutValues h2, .aboutPromise h2, .aboutJobs h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 30px 30px 15px 30px;
+  }
+  .aboutHistory p, .aboutMission p, .aboutValues p, .aboutPromise p, .aboutJobs p {
+    text-align: center;
+  	font-size: 17px;
+  	line-height: 27px;
+    padding: 0px 42px 20px 42px;
+  }
+  .aboutMission img {
+    width: 85%;
+    padding-bottom: 15px;
+  }
+  .ValuePromise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .aboutHistory, .aboutMission, .aboutValues, .aboutPromise, .aboutJobs {
+    padding: 0px 42px 0px 42px;
+  }
+  .testimonials { /* Insights Main Section */
+    border-bottom: 9px solid #67281f;
+    padding: 0px 42px 0px 42px;
+  }
+  .insightsHead h1 {
+    font-size: 34px;
+    font-weight: 600;
+    padding: 60px 0px 60px 0px;
+  }
+  .testimonials ul li {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 9px solid #fff;
+  }
+  .testimonials ul li h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 30px 30px 15px 30px;
+  }
+  .testimonials ul li p {
+    text-align: left;
+  	font-size: 17px;
+  	line-height: 27px;
+  }
+  .testimonials ul li h3 {
+    font-size: 19px;
+  }
+}
